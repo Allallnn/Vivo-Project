@@ -1,7 +1,160 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Itim&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Itim", sans-serif;
+}
+
+body {
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 200px;
+  background-color: #1C1C1C;
+}
+
+nav img {
+  height: 30px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+}
+
+nav ul li {
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#menu-icon {
+  height: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45rem;
+}
+
+.section-1 {
+  width: 100%;
+  padding: 30px 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* border: 1px solid rebeccapurple; */
+}
+
+.section-1 h1 {
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+
+.section-1 ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  color: #c9cd1a;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#li-1,
+#li-2 {
+  list-style: normal;
+  color: rgb(26, 205, 173);
+}
+
+.section-1 p {
+  font-size: 26px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  width: 30rem;
+}
+
+.section-1 button {
+  width: 30%;
+  background-color: #c9cd1a;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  color: black;
+}
+
+.section-1-text-div {
+  display: flex;
+  flex-direction: column;
+}
+.section-1-img-div {
+}
+
+.section-2 img {
+  max-width: 450px;
+}
+nav ul li:first-child {
+  color: #c9cd1a;
+}
+
+/* Footer */
+footer {
+  background-color: #303030;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+footer p {
+  width: 600px;
+  margin: 0 auto 20px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+footer div {
+  margin-top: 20px;
+  gap: 33px;
+}
+
+footer div img {
+  width: 20px;
+  height: 20px;
+  margin: 0 15px;
+}
+#facebook-img {
+  height: 24px;
+  width: 17px;
+}
+
+#kid-zone-img-2 {
+  width: 103px;
+  height: 37px;
+}
+
+.section-4 {
+  display: flex;
+  background-color: #1c1c1c;
+  justify-content: center;
+  padding: 10px 0;
+}
+.section-4 p {
+  color: white;
+  font-family: sans-serif;
+}
+@media (max-width: 428px) {
 }
