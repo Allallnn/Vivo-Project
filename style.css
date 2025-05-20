@@ -78,7 +78,9 @@ main {
   list-style: normal;
   color: rgb(26, 205, 173);
 }
-
+#menu-icon{
+  display: none;
+}
 .section-1 p {
   font-size: 26px;
   line-height: 1.6;
@@ -94,15 +96,14 @@ main {
   font-size: 16px;
   cursor: pointer;
   border-radius: 8px;
-  color: black;
+  color: white;
 }
 
 .section-1-text-div {
   display: flex;
   flex-direction: column;
 }
-.section-1-img-div {
-}
+
 
 .section-2 img {
   max-width: 450px;
@@ -152,7 +153,7 @@ footer div img {
   justify-content: center;
   padding: 10px 0;
 }
-.section-4 p {
+.section-3 p {
   color: white;
   font-family: sans-serif;
 }
@@ -255,9 +256,7 @@ span{
     flex-direction: row;
     justify-content: center;
   }
-  .section-3 p{
-    color: white;
-  }
+
   span {
     display: none;
   }
