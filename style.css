@@ -16,7 +16,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 30px 200px;
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
 }
 
 nav img {
@@ -39,7 +39,7 @@ nav ul li {
 #menu-icon {
   height: 24px;
   cursor: pointer;
-  display: none;
+  /* display: none; */
 }
 
 main {
@@ -157,33 +157,21 @@ footer div img {
   font-family: sans-serif;
 }
 @media (max-width: 428px) {
-
   nav {
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
   }
-#menu-icon {
-  display: block;
-}
+  #menu-icon {
+    display: block;
+  }
   nav ul {
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 10px;
-    background-color: #1C1C1C;
-    position: absolute;
-    top: 70px;
-    right: 20px;
-    padding: 10px 20px;
     display: none;
-    border-radius: 8px;
-    z-index: 1000;
   }
 
   #menu-icon {
     display: block;
   }
-
 
   main {
     flex-direction: column;
@@ -223,19 +211,19 @@ footer div img {
     font-size: 16px;
   }
 
-  .section-1-text-div{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 90%;
-  }
-  
-  .section-1-text-div p {
-    font-size: 22px;
+  .section-1-text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 
-  .section-1-text-div button{
+  .section-1-text-div p {
+    font-size: 17px;
+  }
+
+  .section-1-text-div button {
     font-size: 20px;
   }
 
@@ -244,7 +232,6 @@ width: 90%;
     height: auto;
     border-radius: 10px;
   }
-
 
   footer {
     padding: 30px 20px;
@@ -259,3 +246,4 @@ width: 90%;
   footer div {
     display: block;
   }
+}
